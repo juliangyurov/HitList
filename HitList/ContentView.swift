@@ -23,11 +23,12 @@ struct ContentView: View {
                     NavigationLink {
                         Text("Item at \(item.timestamp!, formatter: itemFormatter)")
                     } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
+                         Text(item.timestamp!, formatter: itemFormatter)
                     }
                 }
                 .onDelete(perform: deleteItems)
             }
+            .navigationTitle(   "Hit List")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
