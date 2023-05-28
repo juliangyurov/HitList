@@ -100,8 +100,8 @@
 			children = (
 				35AFA38C2A235A53006E5625 /* HitListApp.swift */,
 				35AFA38E2A235A53006E5625 /* ContentView.swift */,
-				35AFA3902A235A56006E5625 /* Assets.xcassets */,
 				35AFA3952A235A56006E5625 /* Persistence.swift */,
+				35AFA3902A235A56006E5625 /* Assets.xcassets */,
 				35AFA3972A235A56006E5625 /* HitList.xcdatamodeld */,
 				35AFA3922A235A56006E5625 /* Preview Content */,
 			);
